@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+  <meta charset="utf-8">
+  <!-- <base href="/"> -->
+  <title>starting-template</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="starting-template">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:image" content="images/dist/preview.jpg">
+  <link rel="icon" href="images/favicon.png">
+
+  <link rel="preload" href="fonts/roboto-regular-webfont.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/roboto-bold-webfont.woff2" as="font" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+  <!-- <script>
+    document.createElement("picture");
+  </script>
+  <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script> -->
+</head>
+
+<body>
+  <div style="display: none;">
+  </div>
+  <div class="wrapper">
+    <!--#include virtual="/parts/header.html" -->
+    <main class="main">
+      <div class="wrapper" style="max-width: 1200px; margin: 0 auto;">
+        <div class="tabs">
+          <div class="tabs__triggers">
+            <a href="#tab-1" class="tabs__triggers-item">Tab-1</a>
+            <a href="#tab-2" class="tabs__triggers-item">Tab-2</a>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__content-item" id="tab-1">
+              Content 1
+            </div>
+            <div class="tabs__content-item" id="tab-2">
+              Content 2
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/app.min.js"></script>
+  </div>
+</body>
+
+</html>

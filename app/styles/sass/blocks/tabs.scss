@@ -1,0 +1,30 @@
+.tabs {
+  &__content {
+    width: 100%;
+  }
+
+  &__triggers {
+    display: flex;
+  }
+
+  &__triggers-item {
+    flex-grow: 1;
+    padding: 20px;
+    color: #000000;
+  }
+
+  &__triggers-item--active {
+    background-color: #eeeeee;
+  }
+
+  &__content-item {
+    padding: 20px;
+    width: 100%;
+    display: none;
+    background-color: #eeeeee;
+  }
+
+  &__content-item--active {
+    display: block;
+  }
+}
